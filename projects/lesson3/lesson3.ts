@@ -27,3 +27,14 @@ let pro: {
 
 console.log(pro.age)
 
+enum API_STATUS {
+    PENDING = "PENDING",
+    FULFILLED = "FULFILLED",
+    REJECTED = "REJECTED"
+}
+
+let a1 = API_STATUS.FULFILLED
+let a2 = API_STATUS.REJECTED
+
+console.log("a1 = ", a1, " a2 = ", a2);
+
