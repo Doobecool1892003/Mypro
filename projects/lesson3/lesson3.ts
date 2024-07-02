@@ -1,5 +1,6 @@
 
 let myarr: (string|number)[] = ['Hoang', 69];
+myarr.push('Handsome');
 console.log(myarr);
 
 let pro: {
