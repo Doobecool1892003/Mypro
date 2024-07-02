@@ -1,2 +1,2 @@
 let myarr: (string|number)[] = ['Hoang', 69];
-console.log(myarr)
+console.log(myarr);
