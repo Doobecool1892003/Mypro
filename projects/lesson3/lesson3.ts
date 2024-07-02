@@ -4,14 +4,16 @@ let pro: {
     address: string,
     phone: number,
     identity: string,
-    lucky: number
+    lucky: number,
+    floor: number
 }= {
     name: 'Hoang',
     age: 21,
     address: 'hhh',
     phone: 11111222,
     identity: 'handsome',
-    lucky: 80
+    lucky: 80,
+    floor: 4
 };
 
 // pro.home = 'Hanoi'
