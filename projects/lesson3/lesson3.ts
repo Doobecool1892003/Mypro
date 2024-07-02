@@ -5,7 +5,8 @@ let pro: {
     phone: number,
     identity: string,
     lucky: number,
-    floor: number
+    floor: number,
+    salary: number
 }= {
     name: 'Hoang',
     age: 21,
@@ -13,7 +14,8 @@ let pro: {
     phone: 11111222,
     identity: 'handsome',
     lucky: 80,
-    floor: 4
+    floor: 4,
+    salary: 4000
 };
 
 // pro.home = 'Hanoi'
