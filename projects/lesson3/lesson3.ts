@@ -1,22 +1,2 @@
-let pro: {
-    name: string,
-    age: number,
-    address: string,
-    phone: number,
-    identity: string,
-    lucky: number,
-    floor: number
-}= {
-    name: 'Hoang',
-    age: 21,
-    address: 'hhh',
-    phone: 11111222,
-    identity: 'handsome',
-    lucky: 80,
-    floor: 4
-};
-
-// pro.home = 'Hanoi'
-
-console.log(pro.age)
-
+let myarr: (string|number)[] = ['Hoang', 69];
+console.log(myarr)
