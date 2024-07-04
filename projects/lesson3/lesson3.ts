@@ -41,3 +41,15 @@ console.log("a1 = ", a1, " a2 = ", a2);
 let a3: any = ['Hoang'];
 a3.push(false);
 console.log(a3);
+
+const sum = (a: number, b: number): number => {
+    return a + b;
+}
+
+console.log(sum)
+
+function handleException(errorMessage: string): never {
+    throw Error(errorMessage);
+}
+
+handleException("Just a test error");
