@@ -1,4 +1,6 @@
-function addNumberOrString (a: any, b: any ){
+type Htype = number | string | object | boolean;
+
+function addNumberOrString (a: Htype, b: Htype ){
     if(typeof a === 'number' && typeof b === 'number'){
         return a + b;
     }
@@ -8,4 +10,4 @@ function addNumberOrString (a: any, b: any ){
     throw new Error('Parameters must be numbers or strings');
 }
 
-console.log("check >>: ", addNumberOrString(6, 9));
+console.log("check >>: ", addNumberOrString('Hoang dz', 'jss'));
